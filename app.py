@@ -118,7 +118,7 @@ def predict():
                            query18 = request.form['query18'], 
                            query19 = request.form['query19'])
 
-app.run()
+app.run(host="127.0.0.1",port=5000,debug=True)
 
 
 
